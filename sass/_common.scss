@@ -1,0 +1,11 @@
+body,html {
+  background-color: #100e17;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+  @media (min-width: $screen-laptop-xl) {
+    font-size: 20px;
+  }
+}

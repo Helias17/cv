@@ -1,0 +1,38 @@
+.text {
+
+  &_marg-bot-1 {
+    margin-bottom: 1rem;
+  }
+
+  &_code {
+    display: block;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    white-space: pre;
+    max-width: 100%;
+    background-color: #211F27;
+    padding: 0 0.5rem;
+    overflow-x: auto;
+
+    @media (min-width: $screen-laptop) {
+      font-size: 1rem;
+    }
+  }
+
+  &__list-item {
+    list-style: square inside;
+  }
+
+  &__link {
+    color: #fff;
+    text-decoration: underline;
+    transition: 0.2s;
+
+    &:hover {
+      color: #0bceaf;
+    }
+  }
+
+
+}
