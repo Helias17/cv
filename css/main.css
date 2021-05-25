@@ -298,6 +298,9 @@ body, html {
 .text_marg-bot-1 {
   margin-bottom: 1rem; }
 
+.text_marg-bot-2 {
+  margin-bottom: 2rem; }
+
 .text_code {
   display: block;
   font-family: 'Fira Sans', sans-serif;
@@ -323,3 +326,26 @@ body, html {
   transition: 0.2s; }
   .text__link:hover {
     color: #0bceaf; }
+
+.slider {
+  margin: 0 0 70px 0; }
+  .slider__box {
+    margin: 0 -15px; }
+    @media (max-width: 590px) {
+      .slider__box {
+        margin: 0 -5px; } }
+  .slider__item {
+    padding: 0 15px; }
+    @media (max-width: 590px) {
+      .slider__item {
+        padding: 0 5px; } }
+  .slider__img-wrap {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px; }
+    @media (max-width: 590px) {
+      .slider__img-wrap {
+        padding: 5px; } }
+  .slider__image {
+    width: 100%;
+    height: auto; }
