@@ -4,13 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>Ilya Komar</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css?1">
-  <link rel="stylesheet" type="text/css" href="css/hover-min.css">
-  <link rel="stylesheet" type="text/css" href="css/slick.css">
-  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.min.css?1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;600;700&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -25,6 +22,14 @@
           <h1 class="title title_h1">Ilya Komar</h1>
           <p class="contacts__desc">JS Developer</p>
           <p>
+            <span class="contacts__link contacts__link_location">
+              <svg class="contacts__icon">
+                <use xlink:href="#i-location"></use>
+              </svg>
+              Minsk, Belarus
+            </span>
+          </p>
+          <p>
             <a href="tel:+375296664475" class="contacts__link">
               <svg class="contacts__icon">
                 <use xlink:href="#i-phone"></use>
@@ -33,11 +38,11 @@
             </a>
           </p>
           <p>
-            <a href="mailto:helias@yandex.ru" class="contacts__link">
+            <a href="mailto:helias@yandex.com" class="contacts__link">
               <svg class="contacts__icon">
                 <use xlink:href="#i-mail"></use>
               </svg>
-              helias@yandex.ru
+              helias@yandex.com
             </a>
           </p>
           <p>
@@ -48,30 +53,38 @@
               helias17
             </a>
           </p>
+          <p>
+            <a href="https://telegram.me/x1618" class="contacts__link">
+              <svg class="contacts__icon">
+                <use xlink:href="#i-telegram"></use>
+              </svg>
+              @x1618
+            </a>
+          </p>
         </div>
       </div>
       <div class="page-section">
         <h2 class="title title_h2">Skills</h2>
         <ul class="skills">
           <li class="skills__item">core js</li>
-          <li class="skills__item">node</li>
-          <li class="skills__item">express</li>
+          <li class="skills__item">react</li>
+          <li class="skills__item">redux</li>
+          <li class="skills__item">git</li>
           <li class="skills__item">typescript</li>
+          <li class="skills__item">npm</li>
+          <li class="skills__item">css/sass</li>
+          <li class="skills__item">html</li>
+          <li class="skills__item">jquery</li>
+          <li class="skills__item">express</li>
+          <li class="skills__item">webpack</li>
+          <li class="skills__item">node</li>
           <li class="skills__item">typeorm</li>
           <li class="skills__item">sequelize</li>
           <li class="skills__item">postgres</li>
           <li class="skills__item">docker</li>
-          <li class="skills__item">react</li>
-          <li class="skills__item">redux</li>
-          <li class="skills__item">webpack</li>
           <li class="skills__item">winston</li>
           <li class="skills__item">eslint</li>
-          <li class="skills__item">html</li>
-          <li class="skills__item">css/sass</li>
-          <li class="skills__item">jquery</li>
-          <li class="skills__item">npm</li>
           <li class="skills__item">gulp</li>
-          <li class="skills__item">git</li>
           <li class="skills__item">bem</li>
           <li class="skills__item">photoshop</li>
           <li class="skills__item">figma</li>
@@ -79,95 +92,50 @@
         </ul>
       </div>
       <div class="page-section">
-        <h2 class="title title_h2">Portfolio PSD to HTML</h2>
-        <div class="slider">
-          <div class="slider__box">
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="https://livesklad.com/" target="_blank"><img src="img/portfolio/livesklad.jpg" width="935"
-                    height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://rustartup.com/frautest/" target="_blank"><img src="img/portfolio/frautest.jpg"
-                    width="935" height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://texdt.ru/" target="_blank"><img src="img/portfolio/digital-tech.jpg" width="935"
-                    height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="https://fulka.ru/" target="_blank"><img src="img/portfolio/fulka.jpg" width="935" height="699"
-                    alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="https://gamp-it.ru/" target="_blank"><img src="img/portfolio/gamp.jpg" width="935" height="699"
-                    alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="https://rozzettaopt.ru/" target="_blank"><img src="img/portfolio/rozetta.jpg" width="935"
-                    height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://rustartup.com/bit-water/" target="_blank"><img src="img/portfolio/bit-water.jpg"
-                    width="935" height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="https://rustartup.com/user-profile/" target="_blank"><img src="img/portfolio/user-profile.jpg"
-                    width="935" height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://rustartup.com/amz/" target="_blank"><img src="img/portfolio/amz.jpg" width="935"
-                    height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://rustartup.com/formulatx/" target="_blank"><img src="img/portfolio/formulatx.jpg"
-                    width="935" height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://rustartup.com/kinoarea/" target="_blank"><img src="img/portfolio/kinoarea.jpg"
-                    width="935" height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://rustartup.com/protoflex/" target="_blank"><img src="img/portfolio/protoplex.jpg"
-                    width="935" height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://www.service-it.com.ua" target="_blank"><img src="img/portfolio/sit.jpg" width="935"
-                    height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__img-wrap">
-                <a href="http://stavia-bag.ru" target="_blank"><img src="img/portfolio/stavia.jpg" width="935"
-                    height="699" alt="" class="slider__image"></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h2 class="title title_h2">Experience</h2>
+        <p class="text text_marg-bot-1"><b>Dec 2021 - Apr 2022</b>
+          <br />
+        Position: Junior Software Engineer at EPAM.
+        <br />
+        Customer: Epic Games
+        <br />
+        Team size: 6
+        <br />
+        Project: internal software catalog based on open platform <a href="https://backstage.io/" target="_blank" class="text__link">https://backstage.io</a>.
+        <br />
+        Responsibilities: writing react components + unit tests for them, using jest and react testing library.</p>
+        <p class="text text_marg-bot-1"><b>Sep 2020 - Jun 2021</b><br /> Professional development: larning Core JS, Node.min.js, React at The Rolling Scopes School (online courses) + self education.</p>
+        <p class="text text_marg-bot-1"><b>Jan 2019 - Aug 2020</b><br /> Working as a freelancer. Make responsive crossbrowser webpages from PSD. (html/css/js/jquery)</p>
+        <p class="text"><b>2005-2018</b><br> Own Online Projects:</p>
+        <ul class="text text_marg-bot-1">
+          <li class="text__list-item"><a href="https://web.archive.org/web/20190213161103/http://www.fitness-online.by/"
+              target="_blank" class="text__link">fitness-online.by</a> - health and fitness portal</li>
+          <li class="text__list-item"><a href="https://fitfan.ru" target="_blank" class="text__link">fitfan.ru</a> -
+            health and fitness portal</li>
+          <li class="text__list-item"><a href="http://zagar.net.ua" target="_blank" class="text__link">zagar.net.ua</a>
+            - ukranian tourist portal</li>
+          <li class="text__list-item"><a href="http://receptov.net" target="_blank" class="text__link">receptov.net</a>
+            - food recipes</li>
+          <li class="text__list-item">SEO services for private clients</li>
+          <li class="text__list-item">Various websites for monetising web traffic by sms-payments</li>
+        </ul>
+      </div>
+      <div class="page-section">
+        <h2 class="title title_h2">Education</h2>
+        <ul class="text">
+          <li class="text__list-item">National Technical University 2000-2005, Security Systems (Minsk)</li>
+          <li class="text__list-item">Interactive online courses HTML ACADEMY «Professional HTML & CSS, level 2» - <a
+              href="https://assets.htmlacademy.ru/certificates/intensive/63/236662.pdf?1519227737" class="text__link"
+              target="_blank">Certificate</a></li>
+          <li class="text__list-item">RS School «JS/FRONT-END», sep 2020 - 24 feb 2021, - <a
+              href="https://app.rs.school/certificate/absikbrx" class="text__link" target="_blank">Certificate</a></li>
+          </li>
+          <li class="text__list-item">RS School «NodeJS», may 2021 - jul 2021, - <a
+              href="https://app.rs.school/certificate/0vcb531o" class="text__link" target="_blank">Certificate</a></li>
+          </li>
+          <li class="text__list-item">NodeJS EPAM Lab</li>
+          
+        </ul>
       </div>
       <div class="page-section">
         <h2 class="title title_h2">Javascript Apps</h2>
@@ -186,43 +154,8 @@
           <li class="text__list-item"><a
               href="https://rolling-scopes-school.github.io/helias17-JS2020Q3/covid-dashboard/" target="_blank"
               class="text__link">Covid-19 dashboard</a></li>
-          <li class="text__list-item"><a href="https://rstinder.com/" target="_blank"
-              class="text__link">rstinder.com</a> - tinder app clone</li>
           <li class="text__list-item"><a href="https://blackjack777.ws" target="_blank"
               class="text__link">Blackjack777</a> - online game on ReactJS</li>
-        </ul>
-      </div>
-      <div class="page-section">
-        <h2 class="title title_h2">Experience</h2>
-        <p class="text text_marg-bot-1">Since 01.01.2019 I’m working as a freelancer. Make responsive crossbrowser
-          webpages from PSD.</p>
-        <p class="text">2005-2018 Own Online Projects:</p>
-        <ul class="text text_marg-bot-1">
-          <li class="text__list-item"><a href="https://web.archive.org/web/20190213161103/http://www.fitness-online.by/"
-              target="_blank" class="text__link">fitness-online.by</a> - health and fitness portal</li>
-          <li class="text__list-item"><a href="https://fitfan.ru" target="_blank" class="text__link">fitfan.ru</a> -
-            health and fitness portal</li>
-          <li class="text__list-item"><a href="http://zagar.net.ua" target="_blank" class="text__link">zagar.net.ua</a>
-            - ukranian tourist portal</li>
-          <li class="text__list-item"><a href="http://receptov.net" target="_blank" class="text__link">receptov.net</a>
-            - food recipes</li>
-          <li class="text__list-item">SEO services for private clients</li>
-          <li class="text__list-item">Various websites for monetising web traffic by sms-payments</li>
-        </ul>
-
-
-      </div>
-      <div class="page-section">
-        <h2 class="title title_h2">Education</h2>
-        <ul class="text">
-          <li class="text__list-item">National Technical University 2000-2005, Security Systems (Minsk)</li>
-          <li class="text__list-item">Interactive online courses HTML ACADEMY «Professional HTML & CSS, level 2» - <a
-              href="https://assets.htmlacademy.ru/certificates/intensive/63/236662.pdf?1519227737" class="text__link"
-              target="_blank">Certificate</a></li>
-          <li class="text__list-item">RS School «JS/FRONT-END», sep 2020 - 24 feb 2021, - <a
-              href="https://app.rs.school/certificate/absikbrx" class="text__link" target="_blank">Certificate</a></li>
-          </li>
-          <li class="text__list-item">NodeJS EPAM Lab</li>
         </ul>
       </div>
     </article>
@@ -241,46 +174,26 @@
       </g>
     </symbol>
 
-    <svg id="i-mail" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-mail" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M8,10c-0.266,0-0.5-0.094-1-0.336L0,6v7c0,0.55,0.45,1,1,1h14c0.55,0,1-0.45,1-1V6L9,9.664C8.5,9.906,8.266,10,8,10z M15,2  H1C0.45,2,0,2.45,0,3v0.758l8,4.205l8-4.205V3C16,2.45,15.55,2,15,2z" />
-    </svg>
+    </symbol>
 
-    <svg id="i-skype" viewBox="0 0 430.1 430.1" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-skype" viewBox="0 0 430.1 430.1" xmlns="http://www.w3.org/2000/svg">
       <g>
         <g>
           <path
             d="M412.2,246.2c1.6-10.2,2.5-20.5,2.5-31.1c0-110.2-89.3-199.6-199.6-199.6c-10.6,0-21,0.9-31.1,2.5     C165.5,6.6,143.8,0,120.6,0C54,0,0,54,0,120.6c0,23.2,6.6,44.9,18,63.3c-1.6,10.2-2.4,20.5-2.4,31.1     c0,110.2,89.3,199.5,199.5,199.5c10.6,0,21-0.8,31.2-2.4c18.4,11.4,40.1,17.9,63.3,17.9c66.6,0,120.6-54,120.6-120.6     C430.1,286.3,423.5,264.6,412.2,246.2z M309.8,305.8c-8.4,12.2-20.8,21.6-37,28.5c-16.2,6.8-35.4,10.3-57.6,10.3     c-26.6,0-48.6-4.6-65.9-14c-12.3-6.7-22.3-15.7-30-27c-7.7-11.3-11.6-22.3-11.6-33c0-6.3,2.4-11.9,7.1-16.3     c4.8-4.5,10.9-6.8,18.1-6.8c5.9,0,11,1.8,15.1,5.3c4.1,3.5,7.6,8.7,10.4,15.4c3.4,7.9,7,14.4,11,19.6c3.9,5.2,9.3,9.5,16.4,12.9     c7,3.4,16.3,5.1,28,5.1c15.9,0,28.8-3.4,38.7-10.3c9.9-6.9,14.7-15.2,14.7-25.3c0-8.1-2.6-14.4-7.8-19.4     c-5.3-5.1-12.2-8.9-20.7-11.6c-8.5-2.7-20-5.6-34.4-8.6c-19.3-4.2-35.5-9.1-48.5-14.8c-13.1-5.7-23.5-13.4-31.3-23.1     c-7.7-9.9-11.6-22.1-11.6-36.6c0-13.8,4.1-26.2,12.2-37c8.2-10.8,20-19.1,35.4-24.8c15.3-5.8,33.4-8.6,54.1-8.6     c16.5,0,30.8,1.9,43,5.7c12.1,3.8,22.1,8.9,30.2,15.3c8,6.3,13.9,13,17.6,20c3.7,7,5.6,13.9,5.6,20.6c0,6.2-2.4,11.9-7.1,16.8     c-4.7,5-10.7,7.5-17.8,7.5c-6.3,0-11.3-1.5-14.8-4.6c-3.4-3-6.9-7.8-10.7-14.4c-4.8-9.3-10.6-16.5-17.3-21.7     c-6.5-5.1-17.3-7.7-32.4-7.7c-13.9,0-25,2.8-33.4,8.4c-8.4,5.6-12.5,12.2-12.5,19.9c0,4.8,1.4,8.9,4.2,12.3     c2.8,3.5,6.8,6.5,11.8,9.1c5.1,2.6,10.2,4.6,15.4,6c5.2,1.5,13.9,3.6,25.9,6.5c15.1,3.3,28.8,6.9,41.1,10.9     c12.3,4,22.8,8.8,31.5,14.5c8.7,5.7,15.6,13,20.4,21.8c4.9,8.8,7.4,19.6,7.4,32.2C322.5,280,318.3,293.7,309.8,305.8z" />
         </g>
       </g>
-    </svg>
+    </symbol>
+    <symbol id="i-telegram" viewBox="0 0 448 512" id=".5518376484083278" xmlns="http://www.w3.org/2000/svg">
+      <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"/>
+      </symbol>
+      <symbol id="i-location" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+        <path d="M8,16c0,0,6-5.582,6-10s-2.686-6-6-6S2,1.582,2,6S8,16,8,16z M5,5c0-1.657,1.343-3,3-3s3,1.343,3,3S9.657,8,8,8S5,6.657,5,5  z"></path>
+      </symbol>
   </svg>
-
-  <script src="js/slick.min.js"></script>
-  <script>
-    $('.slider__box').slick({
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      infinite: true,
-      dots: true,
-      responsive: [
-        {
-          breakpoint: 900,
-          settings: {
-            arrows: false,
-          }
-        },
-        {
-          breakpoint: 590,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            arrows: false,
-          }
-        }
-      ]
-    });
-  </script>
 
 
 </body>
